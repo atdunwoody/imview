@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+
 
 #Create weight rasters needed for multi-directional hillshade
 

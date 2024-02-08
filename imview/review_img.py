@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+
 """
 Simple interactive image viewer to generate good/bad lists from input list of filenames
 """

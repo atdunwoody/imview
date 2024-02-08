@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+
 """
 Create RGB raster from an input 1-band raster
 Can be used to create color shaded relief maps
