@@ -586,8 +586,8 @@ def latlon_ticks(ax, lat_in=5, lon_in=5, in_crs={'init':'epsg:3857'}, fmt='%0.0f
         
     #ax.set_xlabel('Longitude')
     #ax.set_ylabel('Latitude')
-    ax.set_xlabel('Longitude'+'$^\circ$E')
-    ax.set_ylabel('Latitude'+'$^\circ$N')
+    ax.set_xlabel('Longitude'+'$^\\circ$E')
+    ax.set_ylabel('Latitude'+'$^\\circ$N')
 
     if grid:
         ax.grid(ls=':')
