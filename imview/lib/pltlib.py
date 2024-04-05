@@ -233,8 +233,6 @@ def add_cbar(ax, mappable, label=None, arr=None, clim=None, cbar_kwargs=cbar_kwa
     cbar.ax.tick_params(labelsize=fontsize)
     #Set colorbar to be opaque, even if image is transparent
     cbar.set_alpha(1)
-    #Need this to update after alpha change
-    cbar.draw()
     return cbar
 
 """
